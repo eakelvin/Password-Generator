@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(245, 222, 179, 0.244);
+    text-align: center;
+}
+
+.ctrl {
+    padding: 50px;
+}
+
+h1{
+    text-shadow: 5px 5px 5px rgba(255, 81, 0, 0.222);
+    line-height: 50px;
+    transform: rotate(-3deg);
+    font-size: 60px;
+    color: cornflowerblue;
+}
+h2 {
+    font-style: oblique;
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.diff {
+    color:violet;
+}
+
+#gen {
+    margin: 20px;
+    cursor: pointer;
+    border: 0;
+    padding: 8px;
+    border-radius: 10px;
+    background: yellow;
+    font-size: 16px;
+}
+#copy {
+    margin: 20px;
+    cursor: pointer;
+    border: 0;
+    padding: 8px;
+    border-radius: 10px;
+    background: rgba(0, 229, 255, 0.218);
+    font-size: 16px;
+}
+
+.border {
+    border: 1px solid red;
+    width: 60%;
+    margin: auto;
+}
+
+#box1 {
+    background: green;
+    border-radius: 10px;
+    height: 50px;
+    width: 15%;
+    margin: 20px 0;
+}
+
+#box2 {
+    background: green;
+    border-radius: 10px;
+    height: 50px;
+    width: 15%;
+    margin: 20px 0;
+}
+
+#box3 {
+    background: green;
+    border-radius: 10px;
+    height: 50px;
+    width: 15%;
+    margin: 20px 0;
+}
