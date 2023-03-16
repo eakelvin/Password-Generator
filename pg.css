@@ -5,10 +5,6 @@ body{
     text-align: center;
 }
 
-.ctrl {
-    padding: 50px;
-}
-
 h1{
     text-shadow: 5px 5px 5px rgba(255, 81, 0, 0.222);
     line-height: 50px;
@@ -40,13 +36,10 @@ p{
     font-size: 16px;
 }
 #copy {
-    margin: 20px;
-    cursor: pointer;
-    border: 0;
-    padding: 8px;
-    border-radius: 10px;
     background: rgba(0, 229, 255, 0.218);
     font-size: 16px;
+    height: 40px;
+    width: 10%;
 }
 
 .border {
@@ -60,7 +53,7 @@ p{
     border-radius: 10px;
     height: 50px;
     width: 15%;
-    margin: 20px 0;
+    
 }
 
 #box2 {
@@ -68,7 +61,7 @@ p{
     border-radius: 10px;
     height: 50px;
     width: 15%;
-    margin: 20px 0;
+    margin-top: 5px;
 }
 
 #box3 {
@@ -76,5 +69,10 @@ p{
     border-radius: 10px;
     height: 50px;
     width: 15%;
-    margin: 20px 0;
+    margin-top: 5px;
+}
+
+.boxes {
+    margin-top: 10px; 
+    padding: 0.5rem;
 }

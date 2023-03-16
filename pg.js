@@ -29,11 +29,40 @@ genEl.addEventListener("click", function() {
 
 })
 
-cop.addEventListener("click", function() {
-    cont1.select();
-    cont2.select();
-    cont3.select();
-    document.execCommand("cop"); 
-})
+// cop.addEventListener("click", function() {
+//     const password = document.getElementById("box1").innerText
+//     if (!password) {
+//         return;
+//     } 
+//     navigator.clipboard.writeText(password)
+//     alert('Password copied to clipboard')
+// })
+
+function copy1() {
+    const password = document.getElementById("box1").innerText
+    if (!password) {
+        return;
+    } 
+    navigator.clipboard.writeText(password)
+    alert('Password copied to clipboard')
+}
+
+function copy2() {
+    const password = document.getElementById("box2").innerText
+    if (!password) {
+        return;
+    } 
+    navigator.clipboard.writeText(password)
+    alert('Password copied to clipboard')
+}
+
+function copy3() {
+    const password = document.getElementById("box3").innerText
+    if (!password) {
+        return;
+    } 
+    navigator.clipboard.writeText(password)
+    alert('Password copied to clipboard')
+}
 
     
